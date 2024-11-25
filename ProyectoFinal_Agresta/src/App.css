@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: fredoka;
+  src: url(/fonts/FredokaOne-Regular.ttf);
+}
+
+body {
+  font-family: fredoka;
+  height: 100vh;
+  background-color: #283035;
+}
+
+.root {
+  height: 100%;
+}
+
+button {
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.cantidad {
+  color: rgb(248, 0, 0);
+  text-shadow: 2px 1.5px 0px rgb(0, 0, 0);
+  border: none;
+  background-color: rgba(157, 255, 206, 0);
+  background-image: url(../images/Iconocart.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 22px;
+  font-weight: bolder;
+  height: 85px;
+  width: 90px;
+}
+.cant {
+  color: rgb(248, 0, 0);
+  text-shadow: 2px 1.5px 0px rgb(0, 0, 0);
+  border: none;
+  background-color: rgba(157, 255, 206, 0);
+  background-image: url(../public/images/Iconocart.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 22px;
+  font-weight: bolder;
+  height: 60px;
+  width: 90px;
+}
+.nav {
+  height: 50%;
+  align-items: center;
+  display: block;
+  background-color: rgb(157, 255, 206);
+}
+.nav a {
+  color: rgb(13 202 240);
+  font-style: normal;
+}
+.nav a:hover {
+  color: white;
+  font-style: italic;
+}
+.cart {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.cart-widget, .iconoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+.icono {
+  margin-left: 25px;
+  width: 130px;
+  height: 130px;
+}
+.marca {
+  height: 150px;
+  width: 550px;
+  border-radius: 15px;
+}
+.bienvenida {
+  background-color: rgb(157, 255, 206);
+  color: rgb(85, 85, 216);
+  text-shadow: 2px 1.5px 6px rgb(255, 255, 92);
+  font-size: 36px;
+  text-align: center;
+}
+.itemList {
+  height: 100%;
+}
+.card-image {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-card {
+  box-shadow: inset 0 0 10px 15px rgba(0, 0, 0, 0.3);
+  padding: 40px 0 40px 0;
+}
+.items-table tbody tr td {
+  align-content: center;
+}
+.table-final tbody tr td {
+  align-content: center;
+}
+.table-final tbody tr td p {
+  margin: 0;
+}
+.gracias {
+  font-size: 70px;
+  padding: 15px;
+  color: rgb(75, 109, 8);
+  background-color: rgba(127, 255, 212, 0.653);
+}
