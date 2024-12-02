@@ -37,7 +37,8 @@ const Checkout = () => {
             navig("/congrats/" + resultado.id )
         })
         .catch ( resultado => {
-            console.log( "Error! no se pudo realizar la orden" );
+            console.error();
+            ( "Error! no se pudo realizar la orden" );
         });
         };
     };

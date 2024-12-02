@@ -1,3 +1,4 @@
+import "animate.css"
 import "./App.css";
 import NavBar from "./components/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
